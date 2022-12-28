@@ -7,7 +7,7 @@ int main()
     int count{};
     for (int i=0;i<n;i++) 
     {
-        int a{}, b{}, c{};
+        int a{},b{},c{};
         std::cin>>a>>b>>c;
         if (a+b+c>=2)
         {
