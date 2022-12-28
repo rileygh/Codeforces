@@ -1,14 +1,3 @@
-/*
-nk = input()
-n, k = [int(x) for x in nk.split()]
-
-participants = [int(x) for x in input().split()]
-
-kth = participants[k-1]
-ans = sum(int(x) >= kth and int(x) > 0 for x in participants)
-print(ans)
-*/
-
 #include <iostream>
 #include <algorithm>
 
