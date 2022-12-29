@@ -3,7 +3,7 @@
 
 int main()
 {
-    int el{0};
+    int el{};
     for (int i{0};i<5;i++)
     {
         for (int j{0};j<5;j++)
