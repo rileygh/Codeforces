@@ -6,7 +6,7 @@ int main()
     std::cin>>n;
 
     int c{0};
-    char prev='\0';
+    char prev{'\0'};
     for (int i{1};i<=n;i++)
     {
         char cur;
