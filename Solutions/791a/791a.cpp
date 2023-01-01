@@ -4,7 +4,7 @@ int main()
 {
     int a, b;
     std::cin>>a>>b;
-    int y=0;
+    int y{0};
     while (a<=b)
     {
         a*=3;
