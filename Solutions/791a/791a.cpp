@@ -2,7 +2,7 @@
 
 int main() 
 {
-    int a, b;
+    int a,b;
     std::cin>>a>>b;
     int y{0};
     while (a<=b)
