@@ -31,6 +31,5 @@ int main() {
     }
 
     std::cout<<s;
-
     return 0;
 }
