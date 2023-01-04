@@ -5,7 +5,7 @@ int main()
 {
     int n{};
     std::cin>>n;
-    for (int i{0};i<n;i++)
+    while (n--)
     {
         std::string s{};
         std::cin>>s;
