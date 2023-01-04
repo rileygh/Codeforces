@@ -8,7 +8,7 @@ int main()
     int x{0};
     std::string str{};
 
-    for (int i{0};i<n;i++)
+    while (n--)
     {
         std::cin>>str;
         if (str[1]=='+')
