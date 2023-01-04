@@ -4,7 +4,7 @@ int main()
 {
     int n{},k{};
     std::cin>>n>>k;
-    for (int i{0};i<k;i++)
+    while (k--)
     {
         if (n%10==0&&n>=10)
         {
