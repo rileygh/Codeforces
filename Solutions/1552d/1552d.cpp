@@ -1,7 +1,6 @@
 #include <iostream>
 
-const int MAXN{80005};
-int t,n,a[MAXN];
+int t,n,a[10005];
 int main()
 {
     std::cin>>t;
