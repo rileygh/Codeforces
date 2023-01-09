@@ -12,7 +12,7 @@ int main()
             std::cin>>a[i];
         }
         int mask{1},has_zero_sum{-1};
-        for (int i{1};i<=n;i++)    
+        for (int i{1};i<=n;i++)
         {
             mask*=3;
         }
@@ -21,8 +21,9 @@ int main()
             int ms{i},sum{0};
             for (int k{1};k<=n;k++)
             {
-                int flag{ms%3};ms/=3;
-                if (flag==1)    
+                int flag{ms%3};
+                ms/=3;
+                if (flag==1)
                 {
                     sum+=a[k]*1;
                 }
