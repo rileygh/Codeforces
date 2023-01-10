@@ -27,7 +27,7 @@ int main()
                 {
                     sum+=a[k]*1;
                 }
-                if (flag==2)    
+                else if (flag==2)    
                 {
                     sum+=a[k]*-1;
                 }
