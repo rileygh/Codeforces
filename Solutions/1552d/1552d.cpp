@@ -1,6 +1,6 @@
 #include <iostream>
 
-int t,n,a[10005];
+int t{},n{},a[10005]{};
 int main()
 {
     std::cin>>t;
