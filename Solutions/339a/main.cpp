@@ -5,14 +5,14 @@
 #include <numeric>
 
 int main() {
-    std::string str;
+    std::string s{};
     std::cin>>str;
 
-    std::vector<int> n;
+    std::vector<int> n{};
     std::regex nums("\\d+");
-    std::for_each(std::sregex_iterator(str.begin(),str.end(),nums),
+    std::for_each(std::sregex_iterator(s.begin(),s.end(),nums),
                   std::sregex_iterator(),
-                  [&n](const std::smatch& match){n.push_back(std::stoi(match.str()));});
+                  [&n](const std::smatch& match){n.push_back(std::stoi(match.s()));});
 
     std::sort(n.begin(),n.end());
 
